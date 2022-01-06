@@ -1,0 +1,93 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.header-border{
+    border-image: linear-gradient(salmon,red);
+    border-image-slice: 1;
+    border-left: 5px solid;
+    padding-left: 15px;
+    border-radius: 5px;
+    
+    }
+.half-width{
+    width: 50%;
+    padding-left: 25px;
+}
+.half-width h1{
+    width: 50%;
+    padding-left: 12px;
+    padding-top: 50px;
+    
+    }
+.half-width img{
+    width: 50%;
+    padding-left: 25px;
+    display: flex;
+}
+.top{
+    display: flex;
+    margin-bottom: 5px;
+}
+.link-button{
+    background-image: linear-gradient(salmon,orange);
+    text-decoration: none;
+    border-radius: 5px;
+    color:whitesmoke;
+    font-weight: 1000;
+    padding: 10px;
+}
+
+.text-color{
+    color: red;
+}
+#mid-header{
+    text-align: center;
+}
+.first-box{
+    display: flex;
+    margin-bottom: 75px;
+    padding-right: 20px;
+}
+.boxes{
+    
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    text-align: justify;
+    padding-right: 20px;
+    border-radius: 30px;
+    float: left;
+    
+}
+.boxes img{
+    width: 75%;
+    
+}
+.fonts{
+    color: whitesmoke;
+    
+}
+.mid-2{
+    display: flex;
+    width: 100%;
+    padding: 5%;
+}
+.mid-2 img{
+    width: 50%;
+    padding-left: 40%;
+    margin-top: 30px;
+}
+#text-format{
+    width: 40%;
+    padding-right: 20%;
+    margin-top: 30px;
+    font-weight: bolder;
+    padding-bottom: 30px;
+}
